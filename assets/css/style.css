@@ -2,8 +2,9 @@ header {
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
-    border-bottom: 10px solid #ddd;
-    border-top:  10px solid #ddd;
+    border-bottom: 10px solid rgb(42, 36, 62);
+    border-top:  20px solid black;
+    border-radius: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,6 @@ header {
     header h1 {
         margin: 0;
     }
-
     nav ul {
         list-style: none;
         margin: 0;
@@ -100,18 +100,10 @@ header {
         flex: 10;
     }
 
-    .profile-picture {
-        flex: 0 0 250px;
-    }
-
-    .profile-picture img {
-        width: 100%;
-    }
-
     .profile-container {
         width: 300px; 
         height: 300px; 
-        background-color: #007bff; 
+        background-color: lightcyan; 
         border-radius: 50%; 
         display: flex;
         justify-content: center;
@@ -140,7 +132,7 @@ header {
     hr {
         height: 10px;
         border-radius: 4px;
-        background-color: lightgrey;
+        background-color: rgb(42, 36, 62);
         border: 0px;
         width: 100%;
     }
@@ -170,10 +162,127 @@ header {
     }
 
     .section-1{
-    background-color: beige;
+    background-color: oldlace;
     width: 40vw;
-    border-radius: 5px;
+    border-radius: 20px;
     justify-content: center;
     margin: 50px;
-}
 
+}
+.section-1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+footer{
+    background-color: rgb(42, 36, 62);
+    text-align: center;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  /* Base Styles: Kept as is, changes only in responsive section */
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 6vw;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 4vw;
+        padding: 5px 10px;
+    }
+
+    /* Profile Container */
+    .profile-container {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        flex-direction: column;
+
+    }
+
+    .profile-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Section Content */
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+
+    .content {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Adjust Project and Goals Sections */
+    .section-1 {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    /* Form */
+    form {
+        width: 90%;
+        margin-left: 20px ;
+        padding: 0px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    form h2 {
+        font-size: 5vw;
+    }
+
+    form input, form textarea {
+        font-size: 4vw;
+    }
+
+    form input[type="submit"] {
+        font-size: 4vw;
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 3.5vw;
+        padding: 10px;
+    }
+
+    /* Typography */
+    h1 {
+        font-size: 8vw;
+    }
+
+    .contact-section {
+        font-size: 4vw;
+        text-align: center;
+    }
+}
