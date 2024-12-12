@@ -1,0 +1,179 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 10px solid #ddd;
+    border-top:  10px solid #ddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/watercolor3\ \(1\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 2vw;
+    }
+    a:hover{
+        background-color: grey;
+        color: white;
+        border-radius: 3px;
+        text-decoration: none;
+        
+    }
+
+    form {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-left: 150px;
+    }
+
+    form h2 {
+        margin-top: 0;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-left: -5px;
+    }
+
+    form input[type="submit"] {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #444;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+        padding-right: 150px ;
+    }
+
+    .content {
+        flex: 10;
+    }
+
+    .profile-picture {
+        flex: 0 0 250px;
+    }
+
+    .profile-picture img {
+        width: 100%;
+    }
+
+    .profile-container {
+        width: 300px; 
+        height: 300px; 
+        background-color: #007bff; 
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; 
+        margin-top: 150px;
+        margin-left: 180px;
+    }
+
+    .profile-container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .contact-info {
+        margin-top: 20px;
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    hr {
+        height: 10px;
+        border-radius: 4px;
+        background-color: lightgrey;
+        border: 0px;
+        width: 100%;
+    }
+
+    .contact-section {
+        background-color: lightcyan;
+        padding: 20px 0;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .gradient{
+        height: 5vh;
+        width: 98.9%;
+        background: linear-gradient(to bottom, white, transparent);
+        position: absolute;
+        
+    }
+    .background-image{
+        background-image: url(../images/watercolor3\ \(1\).jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .background-image h1 , hr{
+        margin: 0;
+        text-align: center;
+    }
+
+    .section-1{
+    background-color: beige;
+    width: 40vw;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 50px;
+}
+
