@@ -1,11 +1,10 @@
-(https://github.com/user-attachments/assets/0245706d-d37f-44f8-940e-603317dd8176)
 Table Of Contents:
   About
   Projects
   Goals
   Contact
 Features a light and dark mode
-(https://![2](https://github.com/user-attachments/assets/87a7e8c2-bc24-46a8-87ca-a1724d4ca0ce)
-(https://github.com/user-attachments/assets/0245706d-d37f-44f8-940e-603317dd8176)
 Interactive Slide show that displays websites worked on by me
-(https://github.com/user-attachments/assets/97b9943c-e958-4d1c-b412-9ddd711fa461)
+![Screenshot 2024-12-13 222343](https://github.com/user-attachments/assets/ad9ce3b5-f355-4dba-98c0-404c20a232f9)
+![2](https://github.com/user-attachments/assets/16834a3a-5ffe-46e1-8d97-81bc7f989922)
+![3](https://github.com/user-attachments/assets/b9794da4-c115-49bc-98c7-eab32bff1d09)
