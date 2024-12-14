@@ -50,6 +50,7 @@ header {
     a{
         text-decoration: none;
     }
+    
 
     form {
         width: 300px;
@@ -573,7 +574,7 @@ html {
           color: black;
       }
   
-      .container p {
+      .container p {    
           color: white;
       }
       form h1{
